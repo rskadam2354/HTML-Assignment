@@ -2,32 +2,6 @@
 
 
 .container, .content {
-    width: 100%;
-    height: 100%;
-    }
-    .column{
-        top:0;
-        display: block;
-    }
-    .column{
-        width: 35%;    
-        border: 1px;
-        padding: 300 px;
-        display: inline-block;
-        align-content:space-around;
-    }
-    /* this is chang */
-    .list{
-        position: absolute;
-        top: 0;
-    }
-    .row{
-        width: 100%;
-        border: 1 px solid black;
-        margin-top:10px;
-    }
-    h1{
-        position: absolute;
-        top: 105%;
-        left:45%;
-    }
+width: 100%;
+height: 100%;
+}
