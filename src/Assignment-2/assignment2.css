@@ -5,3 +5,86 @@
 width: 100%;
 height: 100%;
 }
+header{
+    border: 1px solid black;
+    background-color: aqua;
+    padding:  10px 0;
+    width: 100%;
+}
+header .search{
+    right: 1%;
+    top: 30px;
+    margin: 0 10px;
+    position: absolute; 
+}
+
+.logo{
+    padding-top:2px;
+    padding-left: 2px;
+}
+navbar nav ul li , .body-content aside ul li{
+    list-style: none;
+}
+navbar nav ul li{
+    display: inline;
+    padding: 40px;
+}
+navbar nav ul{
+    margin-left : 30%;
+}
+nav{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.body-content aside ul li{
+    padding: 20px;
+}
+.body-content #main-content-section{
+    height: 600px;
+    width: 65%;
+    top: 26%;
+    padding-left: 20px;
+    position: absolute;
+    margin-left: 15.5%;
+    margin-right: 15%;
+    padding-top: 6px;
+    border: solid 1px black;
+}
+.body-content section #main-content-section .post-img img{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.left-side{
+    display: block;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 85%;
+    border: 1px solid black;
+}
+.body-content aside .left-side{
+    padding-top: 5px;
+}
+img{
+    display: inline-block;
+    padding: 5px;
+}
+#right-sidebar-menu{
+    position: absolute;
+    height: 600px;
+    top: 26%;
+    left: 85%;
+    right: 0%;
+    float: right;
+    border: 1px solid black;
+    display: block;
+}
+.body-content #main-content-section aside{
+    display: inline-block;
+}
+#page-footer p{
+    padding: 10px;
+    border: solid 1px black;
+    text-align: justify;
+}
