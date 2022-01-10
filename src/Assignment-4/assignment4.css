@@ -5,3 +5,107 @@
 width: 100%;
 height: 100%;
 }
+body{
+    font-family: Railway,sans-serif;
+}
+header{
+    background-color: #92E0E5;
+    color: white;
+    height: 50px;
+    padding: 0px 25px;
+}
+header nav{
+    float: right;
+}
+header h1{
+    float: left;
+    text-indent: -9999px;
+    background: url(../Assignment-4/images/logo.png) no-repeat;
+    background-size: 35px 35px;
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;
+}
+nav li{
+    display: inline-block;
+    padding: 17px 10px;
+}
+nav li:hover{
+    background-color: #3f8da7;
+    color: white;
+    cursor:pointer;
+}
+#hero{
+    background: url(../Assignment-4/images/background\ main\ page\ content.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+#hero img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #3F8DA7;
+    margin-bottom: 25px;
+}
+#hero h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+h3{
+    color: #92E0E5;
+}
+.btn{
+    background: white;
+    border: 2px solid #3F8DA7;
+    color: #3F8DA7;
+    font-size: 20px;
+    /* height: 30px; */
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.btn:hover{
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color:white;
+}
+.three-col{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+}
+.three-col img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3F8DA7;
+    margin : 25px 0; 
+}
+.three-col p{
+    margin: 0 10px 40px 10px;
+    /* width: 300px; */
+    padding: 0 40px;
+    text-align: justify;
+}
+footer{
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul{
+    margin: 40px 0;
+}
+footer li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.link{
+    color: white;
+}
+link:hover{
+    color: #92E0E5;
+}
